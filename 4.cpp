@@ -84,7 +84,6 @@ int main() {
         int val;
         std::string comp;
         std::cin >> parent >> val >> comp;
-       
         if (i == 0) {
             tree.addRoot(new Node(nullptr, val, comp));
             nodes.push_back(tree.root);

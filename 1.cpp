@@ -26,7 +26,7 @@ int main() {
     std::string str;
     std::cin >> str;
 
-    isRightLetters(str) ? std::cout << "YES\n" : std::cout << "NO\n";
+    isRightLetters(str) ? std::cout << "YES" << std::endl : std::cout << "NO" << std::endl;
 
     return 0;
 }
